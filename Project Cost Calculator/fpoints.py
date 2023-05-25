@@ -166,9 +166,7 @@ processing logic or data structure. Made up of two parts: Flexible Query and Bus
                 print("Please enter a value between 0-5.")
 
     qtotal = q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9 + q10 + q11 + q12 + q13 + q14
-    print(f"Q Total = {qtotal}")
     vaf = 0.65 + qtotal/100
-    print(f"VAF = {vaf}")
 
     # STEP 3: Adjusted Function Point (AFP) calculation
     afp = ufp * vaf
